@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageIV"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    <Button
+        android:id="@+id/takephotoTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camera"/>
+
+    <Button
+        android:id="@+id/calculateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calculate"/>
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"/>
+</LinearLayout>
